@@ -1,11 +1,11 @@
 import React from 'react';
 import styled from 'styled-components/macro';
 
-const PhotoGridItem = ({ id, src, alt, tags }) => {
+const PhotoGridItem = ({ id, src, srcSet, alt, tags }) => {
   return (
     <article>
       <Anchor href={`/photos/${id}`}>
-        <Image src={src} />
+        <Image src={src} srcSet={srcSet} id={id} />
       </Anchor>
       <Tags>
         {tags.map((tag) => (
