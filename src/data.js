@@ -100,7 +100,7 @@ const data = [
     src: '/images/wexor-tmg-turtle.jpg',
     srcSet: `
       /images/wexor-tmg-turtle.jpg 1,
-      /images/wexor-tmg-turtle@2z.jpg 2x,
+      /images/wexor-tmg-turtle@2x.jpg 2x,
       /images/wexor-tmg-turtle@3x.jpg 3x
     `,
     alt: 'A large tropical turtle swimming in water',
