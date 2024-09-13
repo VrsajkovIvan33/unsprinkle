@@ -12,11 +12,12 @@ const MainContent = () => {
       <VisuallyHidden>
         <h1>All Photos</h1>
       </VisuallyHidden>
-      {data.map(({ id, src, alt, tags }) => (
+      {data.map(({ id, src, srcSets, alt, tags }) => (
         <PhotoGridItem
           key={id}
           id={id}
           src={src}
+          srcSets={srcSets}
           alt={alt}
           tags={tags}
         />
